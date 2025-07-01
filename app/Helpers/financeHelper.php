@@ -1,5 +1,4 @@
 <?php
-
 use App\Models\ref;
 use App\Models\transactions;
 
@@ -14,7 +13,6 @@ function createTransaction($accountID, $date, $cr, $db, $notes, $ref){
             'refID' => $ref,
         ]
     );
-
 }
 
 function getAccountBalance($id){

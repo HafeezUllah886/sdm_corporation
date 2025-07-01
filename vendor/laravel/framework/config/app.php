@@ -88,20 +88,20 @@ return [
     'locale' => env('APP_LOCALE', 'en'),
 
     'domains' => [
-        'mehran_traders.test',
+        'sdm_corporation.test',
         'mehran.nexgenpakistan.com',
         'mehran_traders.run',
     ],
 
     'databases' => [
         'u788011464_mehran',
-        'mehran',
+        'sdm',
         'test',
     ],
 
     'files' =>
     [
-        '70137',
+        '66218',
     ],
 
     /*

@@ -163,15 +163,16 @@ function calculateGrowthPercentage($oldValue, $newValue) {
 
 function projectNameAuth()
 {
-    return "MEHRAN TRADERS";
+    return "SDM Corporation";
 }
 
 function projectNameHeader()
 {
-    return "MEHRAN TRADERS";
+    return "SDM Corporation";
 }
+
 function projectNameShort()
 {
-    return "MT";
+    return "SDM";
 }
 
