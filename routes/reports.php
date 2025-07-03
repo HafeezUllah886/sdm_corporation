@@ -17,6 +17,7 @@ use App\Http\Controllers\reports\saleProductsReportController;
 use App\Http\Controllers\reports\salesGstReportController;
 use App\Http\Controllers\reports\salesManReportController;
 use App\Http\Controllers\reports\salesReportController;
+use App\Http\Controllers\reports\townWiseSalesReport;
 use App\Http\Middleware\adminCheck;
 use Illuminate\Support\Facades\Route;
 
@@ -65,4 +66,7 @@ Route::middleware('auth', adminCheck::class)->group(function () {
 
     Route::get('/reports/expense', [expenseReportController::class, 'index'])->name('reportExpense');
     Route::get('/reports/expenseData/{from}/{to}/{category}', [expenseReportController::class, 'data'])->name('reportExpenseData');
+
+    Route::get('/reports/townsales', [townWiseSalesReport::class, 'index'])->name('reportTownSales');
+    Route::get('/reports/townsalesdata', [townWiseSalesReport::class, 'data'])->name('reportTownSalesData');
 });

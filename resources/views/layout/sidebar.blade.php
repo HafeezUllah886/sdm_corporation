@@ -256,6 +256,10 @@
                                 <a href="{{ route('reportExpense') }}" class="nav-link"
                                     data-key="t-basic-elements">Expense Report</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{ route('reportTownSales') }}" class="nav-link"
+                                    data-key="t-basic-elements">Town Sales Report</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
